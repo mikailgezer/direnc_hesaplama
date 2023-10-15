@@ -164,7 +164,7 @@ namespace direnc_hesaplama
 
             direncdeg = (renk1deg * 10 + renk2deg) * Math.Pow(10, carpandeg);
 
-            lblSonuc.Text = direncdeg.ToString () + "Ω" + "  % " + tolerans .ToString() + "Ω";
+            lblSonuc.Text = direncdeg.ToString () + "Ω" + "  % " + tolerans .ToString();
 
             toldeg = direncdeg * (tolerans  / 100);
             lblTolDeger.Text = toldeg.ToString() + "Ω";
